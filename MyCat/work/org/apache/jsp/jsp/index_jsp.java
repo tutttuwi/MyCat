@@ -59,12 +59,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("</head>\r\n");
       out.write("<body>\r\n");
       out.write("\r\n");
-      out.write("<Form method=\"GET\" action=\"ServletFrom\">\r\n");
-      out.write("<input type=\"radio\" name=\"interest\" value=\"1\" checked />おもしろい！\r\n");
-      out.write("<input type=\"radio\" name=\"interest\" value=\"0\" />おもしろくない！　\r\n");
-      out.write("<input type=\"submit\" value=\"登録\" />\r\n");
-      out.write("\r\n");
-      out.write("</Form>\r\n");
+      out.write("<a href=\"/MyCat/From\">HttpURLConnection呼び出し</a><br/>\r\n");
+      out.write("<a href=\"/MyCat/HttpClientFrom\">HttpClient呼び出し</a>\r\n");
       out.write("\r\n");
       out.write("\r\n");
       out.write("</body>\r\n");

@@ -13,6 +13,14 @@
 		<servlet-class>jp.co.bussiness.servlet.connect.ServletTo</servlet-class>
 	</servlet>
 
+	<servlet>
+		<servlet-name>HttpClientFrom</servlet-name>
+		<servlet-class>jp.co.bussiness.servlet.connect.HttpClientFrom</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>HttpClientTo</servlet-name>
+		<servlet-class>jp.co.bussiness.servlet.connect.HttpClientTo</servlet-class>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>ServletFrom</servlet-name>
@@ -22,5 +30,21 @@
 		<servlet-name>ServletTo</servlet-name>
 		<url-pattern>/To</url-pattern>
 	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>HttpClientFrom</servlet-name>
+		<url-pattern>/HttpClientFrom</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HttpClientTo</servlet-name>
+		<url-pattern>/HttpClientTo</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>/jsp/index.jsp</welcome-file>
+		<welcome-file>/jsp/index.html</welcome-file>
+		<welcome-file>/jsp/index.htm</welcome-file>
+	</welcome-file-list>
+
 
 </web-app>

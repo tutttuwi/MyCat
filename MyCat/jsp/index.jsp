@@ -8,12 +8,8 @@
 </head>
 <body>
 
-<Form method="GET" action="ServletFrom">
-<input type="radio" name="interest" value="1" checked />おもしろい！
-<input type="radio" name="interest" value="0" />おもしろくない！　
-<input type="submit" value="登録" />
-
-</Form>
+<a href="/MyCat/From">HttpURLConnection呼び出し</a><br/>
+<a href="/MyCat/HttpClientFrom">HttpClient呼び出し</a>
 
 
 </body>
